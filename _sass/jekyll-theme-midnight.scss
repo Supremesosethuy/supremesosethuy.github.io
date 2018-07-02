@@ -12,7 +12,18 @@ body {
   background-attachment: fixed !important;
   background: linear_gradient(#2a2a29, #1c1c1c);
 }
-
+logo {
+    display: block;
+    overflow: hidden;
+    text-indent: 110%;
+    white-space: nowrap;
+    background-image: url(/static/bundles/base/sprite_core.png);
+    background-repeat: no-repeat;
+    background-position: -177px -264px;
+    height: 35px;
+    width: 176px;
+}
+    
 h1, h2, h3, h4, h5, h6 {
   color:#e8e8e8;
   margin:0 0 10px;
